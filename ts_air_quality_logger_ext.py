@@ -50,6 +50,7 @@ mqttHost = "mqtt.thingspeak.com"
 
 useUnsecuredTCP = True
 useUnsecuredWebsockets = False
+useSSLWebsockets = False
 
 if useUnsecuredWebsockets:
 	tTransport = "websockets"
